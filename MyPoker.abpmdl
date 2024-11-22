@@ -1,0 +1,105 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.BasicTheme": {
+      "version": "9.0.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.Account": {
+      "version": "9.0.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "9.0.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "9.0.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "9.0.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "9.0.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "9.0.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "9.0.0",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "MyPoker.Application": {
+      "path": "src/MyPoker.Application/MyPoker.Application.abppkg",
+      "folder": "src"
+    },
+    "MyPoker.Application.Tests": {
+      "path": "test/MyPoker.Application.Tests/MyPoker.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "MyPoker.Domain.Shared": {
+      "path": "src/MyPoker.Domain.Shared/MyPoker.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "MyPoker.Application.Contracts": {
+      "path": "src/MyPoker.Application.Contracts/MyPoker.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "MyPoker.HttpApi": {
+      "path": "src/MyPoker.HttpApi/MyPoker.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "MyPoker.HttpApi.Client": {
+      "path": "src/MyPoker.HttpApi.Client/MyPoker.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "MyPoker.Web": {
+      "path": "src/MyPoker.Web/MyPoker.Web.abppkg",
+      "folder": "src"
+    },
+    "MyPoker.Web.Tests": {
+      "path": "test/MyPoker.Web.Tests/MyPoker.Web.Tests.abppkg",
+      "folder": "test"
+    },
+    "MyPoker.EntityFrameworkCore.Tests": {
+      "path": "test/MyPoker.EntityFrameworkCore.Tests/MyPoker.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "MyPoker.EntityFrameworkCore": {
+      "path": "src/MyPoker.EntityFrameworkCore/MyPoker.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "MyPoker.TestBase": {
+      "path": "test/MyPoker.TestBase/MyPoker.TestBase.abppkg",
+      "folder": "test"
+    },
+    "MyPoker.Domain.Tests": {
+      "path": "test/MyPoker.Domain.Tests/MyPoker.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "MyPoker.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/MyPoker.HttpApi.Client.ConsoleTestApp/MyPoker.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "MyPoker.DbMigrator": {
+      "path": "src/MyPoker.DbMigrator/MyPoker.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "MyPoker.Domain": {
+      "path": "src/MyPoker.Domain/MyPoker.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}
