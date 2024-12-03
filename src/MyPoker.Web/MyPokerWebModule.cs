@@ -261,6 +261,13 @@ public class MyPokerWebModule : AbpModule
             app.UseHsts();
         }
 
+        var webSocketOptions = new WebSocketOptions
+        {
+            KeepAliveInterval = TimeSpan.FromMinutes(2),
+        };
+
+        app.UseWebSockets(webSocketOptions);
+
         app.UseCorrelationId();
         app.MapAbpStaticAssets();
         app.UseAbpStudioLink();
